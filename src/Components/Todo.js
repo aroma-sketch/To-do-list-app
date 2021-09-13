@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import TodoForm from './TodoForm';
-import TodoList from './TodoList';
   import {AiFillDelete}  from 'react-icons/ai';
   import {FiEdit} from 'react-icons/fi';
 

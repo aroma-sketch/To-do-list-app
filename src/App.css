@@ -7,9 +7,31 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+.visit h3{
+  color:#fff;
+}
+.visit{
+  background-color: #242631;
+  width: max-content;
+  padding: 2px 2px;
+  margin: 10px 10px;
+}
+.visit span{
+    font-size: 2em;
+    /* background: linear-gradient(
+        145deg
+        ,#f81f01,#f32170,#2196f3); */
+       background: linear-gradient(to right, #f32170,#ffeb07 ,#2196f3);
+       -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+       font-family: 'Allison', cursive;
+       padding: 0 10px;
+}
+
+
 body {
   background: rgba(100, 115, 255, 1) ;
-  height: 70vh;
+  height: 80vh;
 }
 .todo-app {
   display: flex;
@@ -19,7 +41,7 @@ body {
   min-height: 500px;
   background: #242631;
   text-align: center;
-  margin: 50px auto;
+  margin: 20px auto;
   border-radius: 10px;
   padding-bottom: 32px;
 }
@@ -29,6 +51,7 @@ h1 {
   color: #fff;
   font-size: 25px;
 }
+
 
 .complete {
   text-decoration: line-through;
